@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546b06e0-b6b6-4e10-84b3-58684dd6d1de" name="Changes" comment="TP01 : finished">
-      <change afterPath="$PROJECT_DIR$/TP02.py" afterDir="false" />
+    <list default="true" id="546b06e0-b6b6-4e10-84b3-58684dd6d1de" name="Changes" comment="plus_petit : finshed">
+      <change afterPath="$PROJECT_DIR$/DSA_Insertion_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Bubble_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lowest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Arrays.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -42,7 +45,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Array_sorting.executor": "Run",
+    "Python.Lowest_value.executor": "Run",
     "Python.TP01.executor": "Run",
+    "Python.TP02.executor": "Run",
+    "Python.Test_performance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -70,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742830662582</updated>
-      <workItem from="1742830664271" duration="1361000" />
+      <workItem from="1742830664271" duration="9071000" />
     </task>
     <task id="LOCAL-00001" summary="TP01 : finished">
       <option name="closed" value="true" />
@@ -88,7 +95,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742831056153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TP02 : finished">
+      <option name="closed" value="true" />
+      <created>1742894510078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742894510078</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test performance : finshed">
+      <option name="closed" value="true" />
+      <created>1742896011925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742896011925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="plus_petit : finshed">
+      <option name="closed" value="true" />
+      <created>1742896771872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742896771872</updated>
+    </task>
+    <task id="LOCAL-00006" summary="plus_petit : finshed">
+      <option name="closed" value="true" />
+      <created>1742898994444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742898994444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,9 +135,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TP01 : finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP01 : finished" />
+    <MESSAGE value="TP02 : finished" />
+    <MESSAGE value="test performance : finshed" />
+    <MESSAGE value="plus_petit : finshed" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus_petit : finshed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$TP02.coverage" NAME="TP02 Coverage Results" MODIFIED="1742894406254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$Test_performance.coverage" NAME="Test_performance Coverage Results" MODIFIED="1742894849455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$TP01.coverage" NAME="TP01 Coverage Results" MODIFIED="1742830779707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$Array_sorting.coverage" NAME="Array_sorting Coverage Results" MODIFIED="1742898926394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$Lowest_value.coverage" NAME="Lowest_value Coverage Results" MODIFIED="1742896737162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
