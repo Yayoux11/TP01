@@ -2,7 +2,6 @@ import requests
 import time
 from pymongo import MongoClient
 
-# 1. Récupération des données depuis l'API CoinGecko
 def recuperer_donnees():
     url = "https://api.coingecko.com/api/v3/coins/markets"
     params = {
@@ -32,7 +31,6 @@ def recuperer_donnees():
         print("Erreur lors de la récupération des données")
         return None
 
-# 2. Stockage des données dans MongoDB
 def inserer_donnees_mongodb(donnees):
     client = MongoClient("mongodb://localhost:27017/")
     db = client["coingecko_db"]
@@ -48,8 +46,6 @@ def recuperer_donnees_mongodb(collection):
     for doc in donnees_stockees:
         print(doc)
     return donnees_stockees
-
-# 3. Définition des algorithmes de tri
 
 def bubble_sort(data, key):
     arr = data.copy()
@@ -90,7 +86,6 @@ def quick_sort(data, key):
     greater = [x for x in data[1:] if x[key] > pivot[key]]
     return quick_sort(less, key) + [pivot] + quick_sort(greater, key)
 
-# Fonction pour mesurer le temps d'exécution d'un algorithme de tri
 def mesurer_temps(tri_func, data, key):
     debut = time.perf_counter()
     sorted_data = tri_func(data, key)
@@ -98,7 +93,6 @@ def mesurer_temps(tri_func, data, key):
     temps_ms = (fin - debut) * 1000  # conversion en millisecondes
     return sorted_data, temps_ms
 
-# Fonction principale
 def main():
     print("=== Récupération des données depuis CoinGecko ===")
     donnees = recuperer_donnees()
@@ -111,14 +105,12 @@ def main():
     print("\n=== Récupération des données depuis MongoDB ===")
     donnees_stockees = recuperer_donnees_mongodb(collection)
 
-    # 3. Sélection du critère de tri par l'utilisateur
     critere = input("\nEntrez le champ pour trier (ex: current_price, market_cap, total_volume): ")
     if critere not in donnees_stockees[0]:
         print("Champ invalide. Veuillez réessayer avec un des champs suivants:")
         print(list(donnees_stockees[0].keys()))
         return
 
-    # 4. Exécution des algorithmes de tri et mesure des performances
     algos = {
         "Bubble Sort": bubble_sort,
         "Selection Sort": selection_sort,
@@ -136,11 +128,9 @@ def main():
         }
         print(f"{nom_algo}: {temps:.3f} ms")
 
-    # Déterminer l'algorithme le plus rapide
     algo_rapide = min(resultats, key=lambda x: resultats[x]["temps_ms"])
     print(f"\nL'algorithme de tri le plus rapide est: {algo_rapide} ({resultats[algo_rapide]['temps_ms']:.3f} ms)")
 
-    # Affichage des données triées avec l'algorithme le plus rapide
     print("\n=== Données triées ===")
     for doc in resultats[algo_rapide]["sorted_data"]:
         print(doc)

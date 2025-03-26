@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546b06e0-b6b6-4e10-84b3-58684dd6d1de" name="Changes" comment="plus_petit : finshed">
-      <change afterPath="$PROJECT_DIR$/DSA_Insertion_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/DSA_Counting_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Bubble_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lowest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/DSA_Arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/DSA_Bubble_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Insertion_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/DSA_Insertion_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA_Quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/DSA_Quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP/Test_performance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +26,22 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yayoux11"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yayoux11&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yayoux11/TP01.git",
-    "accountId": "6675f72d-3eb1-4595-ac16-de17912c5834"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yayoux11/TP01.git&quot;,
+    &quot;accountId&quot;: &quot;6675f72d-3eb1-4595-ac16-de17912c5834&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ulkgtTLyQJrOM6p8lI8BsTRNiW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,24 +50,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Array_sorting.executor": "Run",
-    "Python.Lowest_value.executor": "Run",
-    "Python.TP01.executor": "Run",
-    "Python.TP02.executor": "Run",
-    "Python.Test_performance.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Array_sorting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DSA_Counting_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lowest_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TP01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TP02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_performance.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kerjean/PyCharmProject/TP01&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TP" />
+      <recent name="$PROJECT_DIR$/DSA" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DSA_Counting_sort" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/DSA_Counting_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +118,9 @@
       <option name="presentableId" value="Default" />
       <updated>1742830662582</updated>
       <workItem from="1742830664271" duration="9071000" />
+      <workItem from="1742980213167" duration="1218000" />
+      <workItem from="1742981549755" duration="2560000" />
+      <workItem from="1742999433546" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="TP01 : finished">
       <option name="closed" value="true" />
@@ -141,10 +184,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="plus_petit : finshed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$TP02.coverage" NAME="TP02 Coverage Results" MODIFIED="1742894406254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$Test_performance.coverage" NAME="Test_performance Coverage Results" MODIFIED="1742894849455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP01$DSA_Counting_sort.coverage" NAME="DSA_Counting_sort Coverage Results" MODIFIED="1742992652478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$TP01.coverage" NAME="TP01 Coverage Results" MODIFIED="1742830779707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$Test_performance.coverage" NAME="Test_performance Coverage Results" MODIFIED="1742894849455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$TP02.coverage" NAME="TP02 Coverage Results" MODIFIED="1742894406254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$Array_sorting.coverage" NAME="Array_sorting Coverage Results" MODIFIED="1742898926394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$Lowest_value.coverage" NAME="Lowest_value Coverage Results" MODIFIED="1742896737162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP01$TP02.coverage" NAME="TP02 Coverage Results" MODIFIED="1742992721545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP" />
   </component>
 </project>
